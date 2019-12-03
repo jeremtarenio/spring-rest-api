@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-@CrossOrigin(origins = "https://jeremtarenio.github.io/recipe-book")
+@CrossOrigin(origins = "https://jeremtarenio.github.io")
 @RestController
 public class IngredientResource {
 	@Autowired
