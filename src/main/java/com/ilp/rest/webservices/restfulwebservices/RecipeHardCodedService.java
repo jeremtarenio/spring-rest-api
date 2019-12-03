@@ -16,11 +16,11 @@ public class RecipeHardCodedService {
 		ingredients.add(new Ingredient("Kamatis", 3));
 
 		recipes.add(new Recipe(1, "Angus Burger", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"../assets/photos/angusburger.png", ingredients));
+				"./assets/photos/angusburger.png", ingredients));
 		recipes.add(new Recipe(2, "Bacon Fries", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"../assets/photos/baconfries.png", ingredients));
+				"./assets/photos/baconfries.png", ingredients));
 		recipes.add(new Recipe(3, "Spicy Buffalo Wings", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"../assets/photos/buffalowings.png", ingredients));
+				"./assets/photos/buffalowings.png", ingredients));
 	}
 
 	public List<Recipe> findAll() {
